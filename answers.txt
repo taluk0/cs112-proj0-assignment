@@ -1,7 +1,87 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name:Timothy Aluko
+Username: taa7
+Student Id:10004806
+Date: 01/15/2023
 
 Step 3. -------------------------------------------
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 1000000;
+    string name = "Timothy Aluko";
+    char c = 'A';
+    double double_num = 3.1415;
+    bool b = false;
+    long big_num = 0;
+    return 0;
+}
+
+Step 4. --------------------------------------------
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 1000000;
+    string name = "Timothy Aluko";
+    char c = 'A';
+    double double_num = 3.1415;
+    bool b = false;
+    long big_num = 0;
+
+    cout << &BIG_NUMBER << endl;
+    cout << &name << endl;
+    cout << &c << endl;
+    cout << &double_num << endl;
+    cout << &b << endl;
+    cout << &big_num << endl;
+    return 0;
+}
+OUTPUT
+0x7ffe9ebcc4ec
+0x7ffe9ebcc500
+A
+0x7ffe9ebcc4f0
+0x7ffe9ebcc4eb
+0x7ffe9ebcc4f8
+
+
+Step 5. -----------------------------------------------
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int number = 37;
+    cout << "Decimal Base Format: " << dec << number << endl;
+    cout << "Octal Base Format: " << oct << number << endl;
+    cout << "Hexadecimal Base Format: " << hex << number << endl;
+    return 0;
+}
+OUTPUT
+Decimal Base Format: 37
+Octal Base Format: 45
+Hexadecimal Base Format: 25
+
+Step 6. -------------------------------------------
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    float arr[20] = {};
+
+    cout << "This is the size of the array: " << sizeof(arr) << endl;
+    return 0;
+}
+
+OUTPUT
+This is the size of the array: 80
